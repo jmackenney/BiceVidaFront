@@ -15,7 +15,7 @@ const InsuranceDetail = (data) => {
           <div className="insurance-detail__image">
             <img alt="" src={insurance.image} data-testid="image" />
             <div className="insurance-detail__label ml-3">
-              <div className="ml-1 mr-1">label</div>
+              <div className="ml-1 mr-1">$ {insurance.price}</div>
             </div>
           </div>
           <div className="m-3">
