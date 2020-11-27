@@ -1,0 +1,54 @@
+@import "./settings/global";
+
+
+/** Select **/
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(14px, 7px) scale(0.75) !important
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-width: 0px !important;
+}
+
+.MuiFormLabel-root {
+    font-family: $site-font-family !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-color: transparent !important;
+}
+
+.MuiIconButton-root:hover {
+    background-color: transparent !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+    font-family: $site-font-family !important;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1F61F7 !important;
+}
+
+.MuiAutocomplete-root.Mui-focused {
+    border: 2px solid #1F61F7 !important;
+}
+
+.MuiAutocomplete-popupIndicatorOpen span i {
+    border: solid #1F61F7 !important;
+    border-width: 0 2px 2px 0 !important;
+}
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-endAdornment {
+    right: 22px !important;
+}
+
+/** /Select **/

@@ -1,0 +1,20 @@
+html,
+body {
+    font-family: $site-font-family;
+}
+
+.noMobile-mr {
+    margin-right: 3rem;
+
+    @include responsive-mobile {
+        margin-right: 0;
+    }
+}
+
+.noDesktop-mt {
+    margin-top: 0;
+
+    @include responsive-mobile {
+        margin-top: 1rem;
+    }
+}
